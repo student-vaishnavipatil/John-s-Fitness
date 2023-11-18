@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600;700&family=Poppins:wght@400;600&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width:80vw;
+}
+
+nav{
+    display:flex;
+  
+   font-size:23px;
+    justify-content:space-around;
+    height:80px;
+   align-items:center;
+}
+.fitness{
+    font-weight:bold;
+    color:rgb(214, 82, 108);
+    font-size:2.5rem;
+}
+.logo{
+    width:100px;
+    height:100px;
+    
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+   
+}
+nav ul li{
+    padding:23px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:black;
+    font-size:18px
+}
+.first{
+    height:50vh;
+    padding:60px;
+  
+}
+.first p{
+    font-size:18px;
+}
+.topleft{
+    width:50%;
+   
+   
+}
+.topright{
+    width:50%;
+   
+  
+}
+.btn{
+    font-size:18px;
+    padding:4px 26px;
+    border-radius:10px;
+    background-color:rgb(222, 97, 97);
+    color:white;
+    border:solid black 2px;
+    cursor:pointer;
+    
+
+}
+.btn:hover{
+    background-color:violet;
+}
+.gym{
+   width:400px;
+   
+   margin:23px 144px;
+}
+.second h1{
+    font-size:3rem;
+}
+.third h1{
+    font-size:3rem;
+}
+.second{
+    padding:104px;
+    
+}
+.second p{
+    padding:0 8vw;
+    padding-bottom:1vw;
+    text-align:center;
+    font-size:18px;
+}
+.box{
+    margin:13px 23px;
+    min-width:20vw;
+    border:2px solid black;
+    text-align:center;
+    padding :23px 0;
+    border-radius:8px;
+
+}
+.box h2{
+    font-size:1.8rem;
+    padding:12px 0;
+}
+.box ul{
+    list-style:none;
+}
+.box ul li{
+    margin:12px 2px ;
+}
+.bold{
+    font-weight:bolder;
+    color:blueviolet;
+    font-size:18px;
+}
+.plan-table{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.third table{
+    width:95%;
+    margin:40px 0;
+    border-collapse:collapse;
+    margin-bottom:140px 0;
+    margin-top:40px;
+}
+.third{
+ padding:73px;
+}
+.third table th{
+    width:20 vw;
+    border-bottom:3px solid black;
+    padding:13px;
+}
+.third table td{
+    border-bottom:3px solid black ;
+}
+footer{
+    padding:23px;
+    Display:flex;
+    justify-content:center;
+    align-items:center;
+   background-color:rgb(180, 68, 68);
+   color:black;
+}

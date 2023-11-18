@@ -1,0 +1,44 @@
+.min-h-screen{
+    min-height:100vh;
+  }
+  .bg-red{
+      background-color:red;
+      
+  }
+  .mx-auto{
+    margin-left:auto;
+    margin-right:auto
+
+  }
+  .flex{
+    display:flex;
+
+  }
+  .items-center{
+    align-items:center;
+   
+  }
+  .flex-col{
+    flex-direction:column;
+  }
+  .justify-center{
+    justify-content:center;
+  }
+  .my-1{
+    margin-top:13px;
+    margin-bottom:13px;
+    color:rgb(226, 43, 76)
+  }
+  .my-2{
+    margin-bottom:44px;
+  }
+  .px-2{
+      padding-right:13px;
+  }
+  .text-blue{
+    color:rgb(50, 50, 255);
+  }
+  .text-center{
+    text-align:center;
+  }
+  
